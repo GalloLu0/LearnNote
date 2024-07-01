@@ -8,7 +8,7 @@ Script：clipmuscle.cpp
 
 ### 流程
 
-1. 构建MecanimClipBuilder clipBuilder
+#### * 构建MecanimClipBuilder clipBuilder
 
 ![1719820803626](image/AnimatorClipDataCreate/1719820803626.png)
 
@@ -22,12 +22,20 @@ Script：clipmuscle.cpp
 
 并且![1719825634730](image/AnimatorClipDataCreate/1719825634730.png)，按照3种类型的curve进行缓存。
 
-并且每一个curve构建一个GenericBinding。
+**并且每一个curve构建一个GenericBinding**。
 
 所以是![1719827246717](image/AnimatorClipDataCreate/1719827246717.png)大类，
 
 每个都会细分![1719827283154](image/AnimatorClipDataCreate/1719827283154.png)
 
-2. 构建ClipMuscleConstant
+#### * 构建ClipMuscleConstant
 
-   ![1719827542063](image/AnimatorClipDataCreate/1719827542063.png)
+![1719827542063](image/AnimatorClipDataCreate/1719827542063.png)
+
+将所有的gengericbinding存到outClipBindings。
+
+然后在allocator上创建一个clip，在将
+
+![1719847564343](image/AnimatorClipDataCreate/1719847564343.png)
+
+只有steamed clip 创建一个临时的builder

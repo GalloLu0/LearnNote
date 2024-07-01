@@ -44,13 +44,13 @@
      <Folder Include="Assets" />
      <Folder Include="Assets\Scenes" />
      <Reference Include="UnityEngine">
-     <HintPath>G:\UnityEngine-2022.3.12f1\build\WindowsEditor\x64\Debug\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
+     <HintPath>F:\UnityEngine-2022.3.12f1\build\WindowsEditor\x64\Debug\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.CoreModule">
-     <HintPath>G:\UnityEngine-2022.3.12f1\build\WindowsEditor\x64\Debug\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll</HintPath>
+     <HintPath>F:\UnityEngine-2022.3.12f1\build\WindowsEditor\x64\Debug\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEditor">
-     <HintPath>G:\UnityEngine-2022.3.12f1\build\WindowsEditor\x64\Debug\Data\Managed\UnityEngine\UnityEditor.dll</HintPath>
+     <HintPath>F:\UnityEngine-2022.3.12f1\build\WindowsEditor\x64\Debug\Data\Managed\UnityEngine\UnityEditor.dll</HintPath>
      </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -1,3 +1,6 @@
-Base path: 'G:/UnityEngine-2022.3.12f1/build/WindowsEditor/x64/Debug/Data', plugins path 'G:/UnityEngine-2022.3.12f1/build'
+Base path: 'F:/UnityEngine-2022.3.12f1/build/WindowsEditor/x64/Debug/Data', plugins path 'F:/UnityEngine-2022.3.12f1/build'
 Cmd: initializeCompiler
 
+Unhandled exception: Protocol error - failed to read magic number (error -2147483644, transferred 0/4)
+
+Quitting shader compiler process
