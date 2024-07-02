@@ -38,4 +38,20 @@ Script：clipmuscle.cpp
 
 ![1719847564343](image/AnimatorClipDataCreate/1719847564343.png)
 
-只有steamed clip 创建一个临时的builder
+只有steamed clip 创建一个临时的builder，其他都直接存到了clip了。（不太知道为什么）
+
+同时pptr类型了也存在了streamed的builder上
+
+![image-20240702102552113](image/AnimatorClipDataCreate/image-20240702102552113.png)
+
+最后这里判定是否存在build，然后再把build的数据存在clip上，clip的所有数据也都是存在allocator上的。
+
+clip都准备好了，再创建MuscleClip, 并且将s_ClipMuscleCurve的曲线存在muscleClip->m_IndexArray里。![image-20240702103002885](image/AnimatorClipDataCreate/image-20240702103002885.png)
+
+接着获取clip的setting数据
+
+![image-20240702152129307](image/AnimatorClipDataCreate/image-20240702152129307.png)
+
+如果有叠加片段，也要同步计算下叠加片段的
+
+![image-20240702152229018](image/AnimatorClipDataCreate/image-20240702152229018.png)
